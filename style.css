@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alfa Slab One', serif;
+    font-weight: 100;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-transform: capitalize;
+    color: #fff;
+}
+
+header {
+    min-height: 100vh;
+    background: linear-gradient(0.45turn, #07214f, #2f0b0d, #3e0b8d);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.intro {
+    align-items: center;
+}
+
+.main-section1 {
+    position: relative;
+    min-height: 100vh;
+    width: 90vw;
+    margin: 1rem;
+    /* background: #28282B; */
+    background: rgba(146, 141, 135, 0.2);
+
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.main-section {
+    margin: 3.5rem;
+    min-height: 40vh;
+    width: 80vw;
+    background: #25303846;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.guessmyno {
+    margin-top: 2rem;
+
+}
+
+.main-section div {
+    margin: 3rem;
+}
+
+.box {
+    height: 8rem;
+    width: 8rem;
+    background: #2e2e2e;
+    box-shadow: inset 0 0 0 5px rgba(150, 150, 150, 0.1);
+
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    /* Ensuring text color contrast */
+}
+
+.userbox {
+    align-items: center;
+}
+
+.userbox input {
+    height: 8rem;
+    width: 8rem;
+    background: #2e2e2e;
+    box-shadow: inset 0 0 0 5px rgba(150, 150, 150, 0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    /* Ensuring text color contrast */
+}
+
+.style-btn {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    height: 4rem;
+    width: 12rem;
+    background: #464646;
+    border-radius: 20px;
+    border: none;
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 800;
+}
+
+.again {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-size: 1rem;
+}
+
+.checker h1 {
+    font-family: 'Alfa Slab One', serif;
+    font-family: 'Creepster', system-ui;
+}
+
+@media only screen and (max-width: 700px) {
+    .style-btn {
+        height: 30px;
+        width: 150px;
+        font-size: 18px;
+    }
+
+    .intro {
+        font-size: 15px;
+
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 15px;
+        font-weight: 100;
+    }
+}

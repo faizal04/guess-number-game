@@ -1,1 +1,1 @@
-# guess-number-game
+Welcome to the Guess the Number Game implemented in JavaScript! The objective is to correctly guess a randomly generated number between 1 and 20. You start with 10 lives, and with each incorrect guess, you lose a life. If your lives are exhausted, you can click the "Restart" button to begin a new game, resetting the secret number your lives and your score also. THANKYOU
